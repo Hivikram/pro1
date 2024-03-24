@@ -1,0 +1,66 @@
+/* Write your code here. */
+
+.card {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+}
+.div1 {
+  width: 50%;
+}
+.div1_h1 {
+  color: white;
+  font-size: 40px;
+  font-family: 'roboto';
+  font-weight: 'bold';
+}
+.div1_p1 {
+  font-size: 15px;
+  font-family: 'roboto';
+  color: white;
+}
+.input_feald {
+  width: 50%;
+  color: white;
+  font-family: 'roboto';
+  font-size: 15px;
+  padding: 10px;
+  border: white 10px none;
+  height: 40px;
+  background-color: transparent;
+}
+.innercard {
+  margin-top: 20px;
+  height: 70px;
+  width: 240px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.innercard_p {
+    margin-top: 20px;
+  height: 70px;
+  width: 240px;
+  border-radius: 10px;
+  background-color: white;
+  padding-top: 25px;
+text-align: center;
+  font-size: 20px;
+  color: green;
+  font-family: 'roboto';
+  font-weight: bold;
+}
+.div2 {
+  width: 50%;
+}
+.div2_img {
+  width: 100%;
+}
